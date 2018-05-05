@@ -17,7 +17,11 @@ client.on('message', msg => {
   }
 });
 
-
+client.on('message', msg => {
+  if (msg.content === ',jzibit') {
+    msg.reply('https://cdn.discordapp.com/attachments/442084669433839618/442340349135028225/jzibit.mp4');
+  }
+});
 
 
 client.login('NDQyMjgwMTE4MzUwNzc0Mjgy.Dc8g-Q.H_6vTlc9wjqT-7myd6JTm4Y6BrI');
