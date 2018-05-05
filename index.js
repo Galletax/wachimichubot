@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+bot.user.setGame('No ser calvo')
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
