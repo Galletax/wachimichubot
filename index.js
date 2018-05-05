@@ -17,9 +17,11 @@ client.on('message', msg => {
   }
 });
 
-if (message.content == ',help2') {
+bot.on('message' , (message) => }
+       if (message.content == ',help2') {
         message.channel.sendMessage(',cringedance -- Gif de Wismichu bailado');
         message.channel.sendMessage(',achus -- Gif de Wismichu bailado');
+       
   }
 });
   
