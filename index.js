@@ -17,14 +17,7 @@ client.on('message', msg => {
   }
 });
 
-const ytdl = require('ytdl-core');
-const streamOptions = { seek: 0, volume: 1 };
-voiceChannel.join()
-  .then(connection => {
-    const stream = ytdl('https://www.youtube.com/watch?v=XAWgeLF9EVQ', { filter : 'audioonly' });
-    const dispatcher = connection.playStream(stream, streamOptions);
-  })
-  .catch(console.error);
+
 
 
 client.login('NDQyMjgwMTE4MzUwNzc0Mjgy.Dc8g-Q.H_6vTlc9wjqT-7myd6JTm4Y6BrI');
