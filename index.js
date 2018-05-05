@@ -19,9 +19,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === ',help') {
-    msg.reply(',cringedance -- Gif de Wismichu bailado
-    ,achus -- Imagen de el guapo de Wismichu
-              ,jzibit -- NO YO NO SOY JOAQUÍN');
+    msg.reply(',cringedance -- Gif de Wismichu bailado');
   }
 });
 
