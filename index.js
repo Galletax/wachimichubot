@@ -18,6 +18,14 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content === ',help') {
+    msg.reply(',cringedance -- Gif de Wismichu bailado
+    ,achus -- Imagen de el guapo de Wismichu
+              ,jzibit -- NO YO NO SOY JOAQUÍN');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content === ',jzibit') {
     msg.reply('https://cdn.discordapp.com/attachments/442084669433839618/442340349135028225/jzibit.mp4');
   }
